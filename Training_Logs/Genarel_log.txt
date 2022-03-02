@@ -1,0 +1,65 @@
+01/03/2022  03:58:38 PM : root : INFO : data get loaded from csv file to pandas dataframe
+01/03/2022  03:58:38 PM : root : INFO : Output column get separated
+01/03/2022  03:58:38 PM : root : INFO : again replace "NULL" with NaN in dataframe
+01/03/2022  03:58:40 PM : root : INFO : handeled missing values by knn imputer
+01/03/2022  03:58:40 PM : root : INFO : the impute model saved into file knn_imputer
+01/03/2022  03:58:40 PM : root : INFO : impute knn model saved into file
+01/03/2022  03:58:43 PM : root : INFO : got columns with zero deviation
+01/03/2022  03:58:43 PM : root : INFO : deleted unnecessarry columns
+01/03/2022  03:58:43 PM : root : INFO : Wafer column get separated
+01/03/2022  03:58:49 PM : root : INFO : successfully created 3 number of clusters
+01/03/2022  03:58:50 PM : root : INFO : the cluster model saved into file kmeans_clustering
+01/03/2022  03:58:50 PM : root : INFO : clustering model saved in file
+01/03/2022  03:58:50 PM : root : INFO : cluster column integrated with data
+01/03/2022  03:58:50 PM : root : INFO : clusters of data created
+01/03/2022  03:58:50 PM : root : INFO : Output column integrated with data
+01/03/2022  03:58:50 PM : root : INFO : cluster column get separated
+01/03/2022  03:58:50 PM : root : INFO : Output column get separated
+01/03/2022  03:59:08 PM : root : INFO : random forest model get trained
+01/03/2022  03:59:12 PM : root : INFO : svm model get trained
+01/03/2022  03:59:12 PM : root : INFO : best model random forest classifier founded
+01/03/2022  03:59:34 PM : root : INFO : random forest model get trained
+01/03/2022  03:59:38 PM : root : INFO : svm model get trained
+01/03/2022  03:59:38 PM : root : INFO : best model random forest classifier founded
+01/03/2022  03:59:38 PM : root : INFO : the model saved into file model_cluster_0
+01/03/2022  03:59:38 PM : root : INFO : cluster column get separated
+01/03/2022  03:59:38 PM : root : INFO : Output column get separated
+01/03/2022  03:59:49 PM : root : INFO : random forest model get trained
+01/03/2022  03:59:49 PM : root : INFO : svm model get trained
+01/03/2022  03:59:49 PM : root : INFO : best model random forest classifier founded
+01/03/2022  03:59:59 PM : root : INFO : random forest model get trained
+01/03/2022  04:00:00 PM : root : INFO : svm model get trained
+01/03/2022  04:00:00 PM : root : INFO : best model random forest classifier founded
+01/03/2022  04:00:00 PM : root : INFO : the model saved into file model_cluster_1
+01/03/2022  04:00:00 PM : root : INFO : cluster column get separated
+01/03/2022  04:00:00 PM : root : INFO : Output column get separated
+01/03/2022  04:00:13 PM : root : INFO : random forest model get trained
+01/03/2022  04:00:14 PM : root : INFO : svm model get trained
+01/03/2022  04:00:14 PM : root : INFO : best model support vector machine founded
+01/03/2022  04:00:26 PM : root : INFO : random forest model get trained
+01/03/2022  04:00:27 PM : root : INFO : svm model get trained
+01/03/2022  04:00:27 PM : root : INFO : best model support vector machine founded
+01/03/2022  04:00:27 PM : root : INFO : the model saved into file model_cluster_2
+01/03/2022  04:00:27 PM : root : INFO : successfully trained model saved
+01/03/2022  04:00:27 PM : root : INFO : data get loaded from csv file to pandas dataframe
+01/03/2022  04:00:27 PM : root : INFO : again replace "NULL" with NaN in dataframe
+01/03/2022  04:00:27 PM : root : INFO : saved impute model loaded
+01/03/2022  04:00:29 PM : root : INFO : handeled missing values by knn imputer
+01/03/2022  04:00:29 PM : root : INFO : deleted unnecessarry columns
+01/03/2022  04:00:29 PM : root : INFO : saved cluster model loaded
+01/03/2022  04:00:29 PM : root : INFO : deleted unnecessarry columns
+01/03/2022  04:00:29 PM : root : INFO : cluster column integrated with data
+01/03/2022  04:00:29 PM : root : INFO : deleted unnecessarry columns
+01/03/2022  04:00:29 PM : root : INFO : deleted unnecessarry columns
+01/03/2022  04:00:29 PM : root : INFO : correct model found for cluster number 0
+01/03/2022  04:00:29 PM : root : INFO : Output column integrated with data
+01/03/2022  04:00:30 PM : root : INFO : deleted unnecessarry columns
+01/03/2022  04:00:30 PM : root : INFO : deleted unnecessarry columns
+01/03/2022  04:00:30 PM : root : INFO : correct model found for cluster number 1
+01/03/2022  04:00:30 PM : root : INFO : Output column integrated with data
+01/03/2022  04:00:31 PM : root : INFO : deleted unnecessarry columns
+01/03/2022  04:00:31 PM : root : INFO : deleted unnecessarry columns
+01/03/2022  04:00:31 PM : root : INFO : correct model found for cluster number 2
+01/03/2022  04:00:31 PM : root : INFO : Output column integrated with data
+01/03/2022  04:00:31 PM : root : INFO : predicted value inserted to csv file
+01/03/2022  04:00:32 PM : werkzeug : INFO : 127.0.0.1 - - [01/Mar/2022 16:00:32] "POST /predict HTTP/1.1" 200 -

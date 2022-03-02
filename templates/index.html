@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Page</title>
+</head>
+<body>
+<h1 style="text-align: center">paste your training and prediction file here</h1>
+<form action="/predict" method="post">
+    <h5> select your absolute training path here</h5>
+    <select name="test_file" id="test_file"> select file path
+    <option value="Training_Batch_Files">Training_Batch_Files</option>
+    </select>
+    <h5> select your absolute prediction path</h5>
+    <select name="prediction_file" id="prediction_file">select file path
+    <option value="Prediction_Batch_Files">Prediction_Batch_Files</option></select>
+    <br>
+    <h5>submit</h5>
+    <input type="submit" value="predict">
+</form>
+</body>
+</html>
