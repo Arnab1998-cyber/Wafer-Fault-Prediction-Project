@@ -16,6 +16,9 @@ K-Means Clustering
 #### Prediction:
 Random Forest, Support Vector Machine
 
+## Technologies:
+Sklearn, Pandas, Matplotlib
+
 ## Description
 
 we are given a set of csv files with vaarious wafer data for training purpose. But here is a problem.
