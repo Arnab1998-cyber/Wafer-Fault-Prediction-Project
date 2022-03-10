@@ -8,6 +8,17 @@ Good for +1 and bad for -1.
 ## Problem statement
 It is not possible to check all the wafer manually. So we build a system where based on the signals, we can know which wafer is good or bad, and we can act accordingly.
 
+## Technologies:
+Sklearn, Pandas, Matplotlib
+
+## Database:
+MySql
+
+## Data Visualization:
+Vizualise the data using principal component analysis, on 2 features.
+#### tools:
+Matplotlib, Seaborn
+
 ## Algorithms
 #### Missing Values: 
 KNN Imputer
@@ -16,11 +27,6 @@ K-Means Clustering
 #### Prediction:
 Random Forest, Support Vector Machine
 
-## Technologies:
-Sklearn, Pandas, Matplotlib
-
-## Database:
-MySql
 
 ## Description
 
