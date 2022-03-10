@@ -9,7 +9,7 @@ Good for +1 and bad for -1.
 It is not possible to check all the wafer manually. So we build a system where based on the signals, we can know which wafer is good or bad, and we can act accordingly.
 
 ## Technologies:
-Sklearn, Pandas, Matplotlib
+Sklearn, Pandas, Flask
 
 ## Database:
 MySql
