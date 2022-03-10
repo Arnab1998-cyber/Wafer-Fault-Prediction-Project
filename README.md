@@ -8,6 +8,14 @@ Good for +1 and bad for -1.
 ## Problem statement
 It is not possible to check all the wafer manually. So we build a system where based on the signals, we can know which wafer is good or bad, and we can act accordingly.
 
+## Algorithms
+#### Missing Values: 
+KNN Imputer
+#### Clustering:
+K-Means Clustering
+#### Prediction:
+Random Forest, Support Vector Machine
+
 ## Description
 
 we are given a set of csv files with vaarious wafer data for training purpose. But here is a problem.
