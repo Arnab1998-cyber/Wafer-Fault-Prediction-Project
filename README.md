@@ -25,7 +25,7 @@ KNN Imputer
 #### Clustering:
 K-Means Clustering
 #### Prediction:
-Random Forest, Support Vector Machine
+Random Forest
 
 
 ## Description
